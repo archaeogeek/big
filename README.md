@@ -1,3 +1,5 @@
+[![Circle CI](https://circleci.com/gh/tmcw/big/tree/gh-pages.svg?style=svg&circle-token=2963848e42fe67b8a66a2ad2d6dd99d05bdde6a4)](https://circleci.com/gh/tmcw/big/tree/gh-pages)
+
 This is a ridiculous presentation system that works great for
 creative, hurried people. See [the demo](http://macwright.org/big/demo.html)
 for an example of it working.
@@ -87,6 +89,13 @@ A slide that changes the body tag's class to 'minard'
 * You can swipe left & right on mobile devices to go back and forth.
 * Add `data-time-to-next="5"` as an attribute to a slide and the slide will auto-advance after 5 seconds - useful for ignite talks.
 * Add `data-bodyclass="something"` to add a custom class to the body tag. Useful for making changes to one slide at a time.
+* Add `<notes>Write your speakers notes here</notes>` in a slide to add speakers notes.
+  These notes will appear in your web developer console when you go to
+  the slide.
+
+## Protips
+
+* [The big cookbook covers a few useful techniques for controlling the style and behavior of your slides](COOKBOOK.md)
 
 ## JavaScript API
 
@@ -120,10 +129,12 @@ big exposes a JavaScript API via the `big` object:
 * [What is Dat data management?](https://maxogden.github.io/slides/okcon/index.html#0)
 * [Sam Franklin on Open Source GIS at OSGIS](http://samfranklin.github.io/osgis2014/)
 * [Ryan Cooper's  "Where's the Story?" from KYGIS2014](http://ryan-m-cooper.com/kygis2014/)
+* [Web Maps Without Web Maps @ SOTM by Tyler Dahlberg](http://tdahlberg.github.io/somworkshop2015/)
 * Yours? Post it in issues.
 
 # Stuff that works with big
 
+* [big-printer](https://github.com/tmcw/big-printer) exports Big presentations to PDF & PNG
 * [Draft](https://draftin.com/), a version control and collaboration tool for writers, uses big for its presentation mode
 * [bigout](https://github.com/abenrob/bigout) exports big presentations to PDF
 * [Slidepad](http://slidepad.herokuapp.com/), a docpad server, supports big
