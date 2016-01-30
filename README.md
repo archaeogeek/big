@@ -107,6 +107,12 @@ big exposes a JavaScript API via the `big` object:
 * `big.reverse()`: go back 1 slide. at the first slide, do nothing.
 * `big.go(number)`: go to a specific slide, given its number.
 
+## Installation with `npm`
+
+big is available on `npm` as the `big-presentation` package.
+
+    npm install --save big-presentation
+
 ## Presentations with Big
 
 * [the demo](http://macwright.org/big/demo.html)
@@ -134,7 +140,7 @@ big exposes a JavaScript API via the `big` object:
 
 # Stuff that works with big
 
-* [big-printer](https://github.com/tmcw/big-printer) exports Big presentations to PDF & PNG
+* [big-printer](https://github.com/tmcw/big-printer) create "notes" pages from big presentations.
 * [Draft](https://draftin.com/), a version control and collaboration tool for writers, uses big for its presentation mode
 * [bigout](https://github.com/abenrob/bigout) exports big presentations to PDF
 * [Slidepad](http://slidepad.herokuapp.com/), a docpad server, supports big
